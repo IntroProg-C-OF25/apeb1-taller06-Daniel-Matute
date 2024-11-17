@@ -24,7 +24,7 @@ public class Ejercicio1_Facturacion2Productos {
             costoFinal = subTotal - descuento + costoEnvio;
             System.out.println("El costo de ambos productos es de:" + "$" + costoAmbosProd);
             System.out.println("Los impuestos por los productos son: " + iva);
-            System.out.println("El costo del los productos mas el iva es de" + subTotal);
+            System.out.println("El costo del los productos mas el iva es de: " + subTotal);
             System.out.println("En su compra se aplico el descuento del 5% que es de :" + descuento);
             System.out.println("El costo final es de = " + "$" + costoFinal);
         }
@@ -33,7 +33,7 @@ public class Ejercicio1_Facturacion2Productos {
             costoFinal = subTotal - descuento + costoEnvio;
             System.out.println("El costo de ambos productos es de:" + "$" + costoAmbosProd);
             System.out.println("Los impuestos por los productos son:" + "$" + iva);
-            System.out.println("El costo del los productos mas el iva es de" + subTotal);
+            System.out.println("El costo del los productos mas el iva es de: " + subTotal);
             System.out.println("En su compra se aplico el descuento del 20% que es de :" + descuento);
             System.out.println("El costo final es de :" + costoFinal);
         }
@@ -48,7 +48,7 @@ public class Ejercicio1_Facturacion2Productos {
         if (subTotal < 1000) {
             System.out.println("El costo de ambos productos es de:" + "$" + costoAmbosProd);
             System.out.println("Los impuestos por los productos son:" + "$" + iva);
-            System.out.println("El costo del los productos mas el iva es de" + subTotal);
+            System.out.println("El costo del los productos mas el iva es de:" + subTotal);
             System.out.println("En su compra no se aplico descuentos");
             System.out.println("El costo total de los dos producto es de:" + "$" + costoFinal);
         }
